@@ -1,6 +1,6 @@
 import java.util.*
 
-data clas Post(
+data class Post(
     val id: Int,
     val ownerId: Int,
     val fromId: Int,
