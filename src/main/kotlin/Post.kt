@@ -16,7 +16,7 @@ data class Post(
     val reposts: Any,
     val views: Any,
     val postType: String,
-    val singerId: String,
+    val singerId: Int,
     val canPin: Boolean,
     val canDelete: Boolean,
     val canEdit: Boolean,
@@ -25,5 +25,5 @@ data class Post(
     val isFavorite: Boolean,
     val donut: Any,
     val postponedId: Int,
-    var postId:Int = 0
+    val postId:Int = 0
 )
