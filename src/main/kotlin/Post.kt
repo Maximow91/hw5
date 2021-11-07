@@ -1,3 +1,6 @@
+import post.properties.CopyHistory
+import post.properties.Geo
+import post.properties.PostSourse
 import java.util.*
 
 data class Post(
@@ -25,5 +28,8 @@ data class Post(
     val isFavorite: Boolean,
     val donut: Any,
     val postponedId: Int,
-    val postId:Int = 0
+    val postSourse: PostSourse?,
+    val geo:Geo?,
+    val copyHistory: CopyHistory?,
+    val postId:Int = 0,
 )

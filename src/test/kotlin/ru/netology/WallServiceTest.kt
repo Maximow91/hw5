@@ -13,31 +13,31 @@ class WallServiceTest {
         "Text",1,2,true,12,
         1,1,1,1,"type",1,
         true,true,true,true,
-        true,true,1,1)
+        true,true,1,1,null,null,null)
 
     val testPostSecond = Post(2,2,2,2,2,
     "text",2,2,true,2,
         2,2,2,2,"type",2,
     true,true,true,true,
-    true,true,2,2)
+    true,true,2,2,null,null,null)
 
     val testPostThird = Post (3,3,3,3,3,
     "text",3,3,true,3,
     3,3,3,3,"type",3,
     true,true,true,true,
-    true,true,3,3)
+    true,true,3,3,null,null,null)
 
     val testPostWithoutExistingId = Post(99,1,1,1,12,
         "text",7, 7,true,7,
         7,7,7,7,"type", 7,
         true,true,true,true,
-        true,true,7,7 )
+        true,true,7,7,null,null,null )
 
     val testPostToUpdate = Post(1,8,8,8,8,
     "text",8,8,true,8,
     8,8,8,8,"type",8,
     true,true,true,true,
-    true,true,8,8)
+    true,true,8,8,null,null,null)
 
 
     @Test
