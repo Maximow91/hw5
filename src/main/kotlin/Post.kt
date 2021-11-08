@@ -1,10 +1,8 @@
 import post.properties.CopyHistory
 import post.properties.Geo
 import post.properties.PostSourse
-import post.properties.attachments.data.Attachment
 import post.properties.attachments.interfaces.Attachments
 import java.util.*
-import kotlin.collections.ArrayList
 
 data class Post(
     val id: Int,
@@ -34,6 +32,6 @@ data class Post(
     val postSourse: PostSourse?,
     val geo:Geo?,
     val copyHistory: CopyHistory?,
-    val attachments: Attachment,
+    val attachments: Attachments,
     val postId:Int = 0,
 )
