@@ -7,19 +7,20 @@ import WallService.update
 import org.junit.Test
 
 import org.junit.Assert.*
+import post.properties.attachments.interfaces.Attachments
 
 class WallServiceTest {
     val testPost = Post(1,12,15,232,1,
         "Text",1,2,true,12,
         1,1,1,1,"type",1,
         true,true,true,true,
-        true,true,1,1,null,null,null)
+        true,true,1,1,null,null,null,Attachment("video",))
 
     val testPostSecond = Post(2,2,2,2,2,
     "text",2,2,true,2,
         2,2,2,2,"type",2,
     true,true,true,true,
-    true,true,2,2,null,null,null)
+    true,true,2,2,null,null,null,Attachments("audio"))
 
     val testPostThird = Post (3,3,3,3,3,
     "text",3,3,true,3,
