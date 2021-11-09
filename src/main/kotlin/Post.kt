@@ -1,6 +1,7 @@
 import post.properties.CopyHistory
 import post.properties.Geo
 import post.properties.PostSourse
+import post.properties.attachments.interfaces.Attachments
 import java.util.*
 
 data class Post(
@@ -31,5 +32,6 @@ data class Post(
     val postSourse: PostSourse?,
     val geo:Geo?,
     val copyHistory: CopyHistory?,
+    val attachments: Attachments,
     val postId:Int = 0,
 )
