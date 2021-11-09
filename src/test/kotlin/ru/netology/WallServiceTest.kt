@@ -84,7 +84,7 @@ class WallServiceTest {
 
     @Test
     fun testCreateComment() {
-
+        WallService.addPost(testPostSecond)
         val res = WallService.createComment(commentForTest)
         assertEquals(res,true)
     }
