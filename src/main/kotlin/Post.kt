@@ -14,7 +14,7 @@ data class Post(
     val replyOwnerId: Int,
     val replyPostId: Int,
     val friendsOnly: Boolean,
-    val comments: Any,
+    val comments: Any?,
     val copyright: Any,
     val likes: Any,
     val reposts: Any,
@@ -32,6 +32,6 @@ data class Post(
     val postSourse: PostSourse?,
     val geo:Geo?,
     val copyHistory: CopyHistory?,
-    val attachments: Attachments,
+    val attachments: Attachments?,
     val postId:Int = 0,
 )

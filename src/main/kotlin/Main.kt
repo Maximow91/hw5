@@ -1,6 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import post.properties.attachments.data.Video
+import post.properties.attachments.interfaces.Attachments
+import post.properties.attachments.interfaces.VideoAttachment
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+
+
+
+
 }
