@@ -10,4 +10,5 @@ data class Comment(val id:Int,
                    val replyToComment:Int,
                    val attachments: Attachments,
                    val parentsSack:Array<Int>?,
-                   val thread: Any?)
+                   val thread: Any?,
+                   )
