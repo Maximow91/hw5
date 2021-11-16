@@ -8,6 +8,7 @@ object WallService {
     private var comments = emptyArray<Comment>()
     private var reports = emptyArray<Report>()
     private var testArray = emptyArray<Post>()
+
     fun addPost(post: Post): Post {
         val newPost = post.copy(postId = lastId)
         posts += newPost
